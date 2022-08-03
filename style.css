@@ -1,0 +1,252 @@
+
+/*globale css code gose here*/
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.body{
+    font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+     font-family: 'Poppins', sans-serif;
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+
+.containar{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+.row{
+	width: 100%;
+	float: left;
+}
+.col-3{
+	width: 25%;
+	float: left;
+}
+
+.col-4{
+	width: 33.33%;
+	float:left;
+}
+
+.col-6{
+	width:50%;
+	float: left;
+}
+
+.col-9{
+  width: 75%;
+  float: left;
+}
+
+.col-12{
+	width: 100%;
+	float: left;
+}
+
+
+
+ /*header area work staret in here*/
+
+
+.header-area{
+   width: 100%;
+   float: left;
+   padding: 20px 0px;
+   border: 1px solid #777;
+}
+
+.logo{
+	width: 150px;
+}
+
+.header-area .navbar{
+	width: 100%;
+	float: left;
+	text-align: right;
+} 
+
+.header-area .navbar li {
+	list-style: none;
+	display: inline-block;
+}
+
+.header-area .navbar li a {
+	display: block;
+	font-size: 14px;
+	text-transform: capitalize;
+	color: #B5B8BB;
+	font-weight: 600;
+	margin: 15px 0px 0px 25px;
+    transition: 1s;
+}
+
+.header-area .navbar li a:hover,.header-area .navbar li a:focus{
+	color: #065FD4;
+}
+
+
+/*online code strate in here*/
+
+ .online-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+ }
+
+ .inner-online{
+ 	width: 100%;
+ 	float: left;
+ 	text-align: center;
+ }
+
+ .inner-online h1{
+     font-size: 56px;
+     line-height: 1.4em;
+     font-weight: 700;
+     color: #0F2656;
+     margin: 0px 0px 15px;
+ }
+
+
+
+ .inner-online h1 span{
+ 	color:#008AFF;
+ }
+
+ .inner-online p{
+ 	font-size: 16px;
+   line-height: 26px;
+   font-weight: 400;
+   color:#777;
+}
+
+ 
+ .inner-online .banner-image{
+ 	width: 40%;
+ }
+
+
+/*online code end in here*/
+
+/*successfully section css code start in here*/
+
+.successfully-secrtion{
+      width: 100%;
+      float:left;
+      padding: 20px 0px 26px;
+}
+
+.inner-left{
+	width: 100%;
+	float:left;
+	text-align: right;
+}
+
+.inner-left h2 {
+	font-size: 56px;
+	line-height:66px;
+	color:#F15767; 
+	font-weight: 600;
+	margin: 0px 0px 0px 20px;
+}
+
+.inner-left p {
+   font-size: 16px;
+   line-height: 26px;
+   font-weight: 400;
+   color:#777;
+   margin: 0px 20px 0px 20px;
+}
+
+.project{
+	font-size: 56px;
+	line-height:66px;
+	color:#0F2656; 
+	font-weight: 600;
+	margin: 0px 0px 0px 20px;
+}/*successfully section css code end in here*/
+
+
+/*footer section css code strat in here */
+
+ .footer-area{
+ 	width: 100%;
+ 	float: left;
+ 	padding: 20px 0px;
+ 	text-align: center;
+ 	background: #1B70FF;
+ }
+
+ .footer-area P{
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #f0f0f0;
+ }
+
+ .footer-area P a{
+        font-weight:700;
+        letter-spacing: 3px;
+        color: #fff;
+ }/*footer section css code end in here */
+
+
+
+/*feature section css code start in here*/
+
+.feature-area{
+	width: 100%;
+	float: left;
+	padding: 40px 0px 80px;
+}
+
+.inner-feature{
+	width: 80%;
+	float: left;
+	padding: 40px 30px;
+	margin: 0px 10px;
+
+}
+
+.inner-feature img{
+	width: 100%;
+	height: 170px;
+
+}
+
+.inner-feature h4{
+       font-size: 18px;
+       font-weight: 700;
+       line-height: 24px;
+       color: #3E3D56;
+       margin: 10px 0px;
+}
+
+.inner-feature p{
+
+}
+
+.cl1{
+	background: #ECDCDF;
+}
+
+.cl2{
+	background: #EBF9F4;
+}
+
+.cl3{
+	background: #FFF7EF;
+}
+
+/*feature section css code end in here*/
+
